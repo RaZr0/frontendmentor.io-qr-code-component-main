@@ -1,0 +1,24 @@
+.qr-code{
+    max-width: 320px;
+    padding: 16px 16px 24px 16px; 
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem 0;
+    text-align: center;
+}
+
+.qr-code .title{
+    font-size: 1.4667rem;
+    line-height: 1.848rem;
+}
+
+.qr-code p{
+    line-height: 1.2667rem;
+    color: var(--Grayish-blue);
+}
+
+.qr-code img{
+    border-radius: 10px;
+}
